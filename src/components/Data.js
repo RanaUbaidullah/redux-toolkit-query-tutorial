@@ -15,5 +15,11 @@ export const Data = () => {
   console.log(singleProductData);
 
   if (isLoading) return <h1> Loading...</h1>;
-  return <div> Data: </div>;
+  return <div> Data: 
+    {allProductsData.map((data)=>(
+      <>
+      <h1>data.tatal</h1>
+      </>
+    ))}
+  </div>;
 };
