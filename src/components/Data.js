@@ -18,7 +18,9 @@ export const Data = () => {
   return <div> Data: 
     {allProductsData.products.map((data)=>(
       <>
-      <h1>{data.title}</h1>
+      <h1>Title: {data.title}</h1>
+      <h2>Description: {data.description}</h2>
+      <h5>Category: {data.category}</h5>
       </>
     ))}
   </div>;
