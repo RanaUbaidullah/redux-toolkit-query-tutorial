@@ -16,9 +16,9 @@ export const Data = () => {
 
   if (isLoading) return <h1> Loading...</h1>;
   return <div> Data: 
-    {allProductsData.map((data)=>(
+    {allProductsData.products.map((data)=>(
       <>
-      <h1>data.tatal</h1>
+      <h1>{data.title}</h1>
       </>
     ))}
   </div>;
